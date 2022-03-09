@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>consultor de cep</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h2>Consultor de CEP</h2>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="title">
+            <h1>Consulte seu CEP</h1>
+        </article>
+            <form class="form" id="form">
+                <label>CEP:</label>
+                <input type="text" placeholder="digite aqui" class="input" id="inputCep">
+                <input type="submit" value="pesquisar" class="btn_pesquisar">
+                <div class="dados_cep" id="dadosCep">
+                    <label>Logradouro:</label>
+                    <input type="text" class="input_dados" id="logradouro">
+                    <label>Bairro:</label>
+                    <input type="text" class="input_dados" id="bairro">
+                    <label>Cidade:</label>
+                    <input type="text" class="input_dados" id="cidade">
+                    <label>UF:</label>
+                    <input type="text" class="input_dados" id="uf">
+                    <label>ddd:</label>
+                    <input type="text" class="input_dados" id="ddd">
+                </div>
+            </form>
+    </main>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: blueviolet;
+    color: white;
+    height: 70px;
+}
+
+.header .logo  {
+    padding: 15px 0px 0px 10px;
+}
+
+.header .logo h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.container .title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.container .form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+ 
+.container .form .input {
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    width: 60%;
+}
+
+.container .form .input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.container .form .btn_pesquisar {
+    width: 100px;
+    height: 30px;
+    border: 1px solid blueviolet;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container .form .btn_pesquisar:hover {
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container .form .dados_cep {
+    display: grid;
+    padding-top: 15px;
+}
+
+.container .form .dados_cep label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container .form .dados_cep .input_dados {
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    margin-bottom: 15px;
+}
+
+.container .form .dados_cep .input_dados:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+@media (max-width: 420px) {
+
+    .header .logo h2 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 95%;
+        height: auto;
+        border-radius: 10px; 
+        margin-top: 50px;
+    }
+
+    .container .form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container .form .input {
+        border: none;
+        border-bottom: 2px solid blueviolet;
+        width: 50%; 
+        font-size: 16px;
+    }
+
+    .container .form .btn_pesquisar {
+        font-size: 14px;
+    }
+
+    .container .form .btn_pesquisar:hover {
+        font-size: 14px;
+    }
+
+    
+    .container .form .dados_cep {
+        display: grid;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .container .form .dados_cep .input_dados {
+        font-size: 16px;
+    }
+}
