@@ -1,18 +1,17 @@
 # Consultor de CEP
-<h2>Esse projeto é um desafio com intuito de mostrar como seria um teste para uma vaga de emprego.</h2>
+<h2>"Projeto feito para acessar informações do cep escolhido."</h2>
 <h3>O projeto foi feito em HTML, CSS e JS puro.</h3>
-<h3>Utilizando o JS para validar os campos de input e consumindo uma api de produtos com o fecth.</h3>
-link do teste: https://github.com/thiagocontaparatestes/testes-vaga-emprego/blob/main/teste-html-css-js.md
+<h3>Esse projeto consulta a api do https://viacep.com.br/</h3>
 <br>
 link do projeto : https://landing-page-pedrovincius.netlify.app/
-<h3>O projeto ainda não está finalizado, faltando validar alguns inputs e deixar responsivo.</h3>
+<h3>O projeto ainda não está finalizado, faltando validar os inputs.</h3>
 <br>
 <h1>Capturas de tela:</h1>
 
-![Captura de tela de 2022-02-16 10-47-51](https://user-images.githubusercontent.com/91329679/154285940-7b541a6c-996f-4ed0-b6bf-7db9aa4866ca.png)
-![Captura de tela de 2022-02-16 10-48-00](https://user-images.githubusercontent.com/91329679/154286084-e6765d63-5d5d-45d6-93b3-8283b64fe085.png)
-![Captura de tela de 2022-02-16 10-48-06](https://user-images.githubusercontent.com/91329679/154286205-bfeaac0b-a694-4cb5-bf81-e7d81a82d70f.png)
+![Captura de tela de 2022-03-09 18-40-38](https://user-images.githubusercontent.com/91329679/158692973-455ab270-49c7-4293-89bd-bac59f850471.png)
 
-<h1>Utilizando o JS para validar campos:</h1>
+![Captura de tela de 2022-03-09 18-43-02](https://user-images.githubusercontent.com/91329679/158692979-37ea688e-9676-41bd-bb31-8a4f0d4f8532.png)
 
-![Captura de tela de 2022-02-16 11-10-51](https://user-images.githubusercontent.com/91329679/154286345-aab77831-811c-48e6-a24e-58f020a89b1f.png)
+![Captura de tela de 2022-03-09 18-43-48](https://user-images.githubusercontent.com/91329679/158693004-c758c2ce-e213-4042-838b-e97d8cb733e2.png)
+![Captura de tela de 2022-03-09 18-43-41](https://user-images.githubusercontent.com/91329679/158693024-ad96c9b6-84bd-479d-842d-99e8b7e54fbe.png)
+
