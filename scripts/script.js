@@ -17,7 +17,7 @@ formulario.onsubmit = event => {
         
         async function preencherDados () {
             
-            const url = `https://viacep.com.br/ws/${inputCep.value}/json/`
+            const url = `http://viacep.com.br/ws/${inputCep.value}/json/`
             await fetch(url)
             .then(response => response.json())
             .then(data => {
