@@ -3,8 +3,7 @@
 <h3>O projeto foi feito em HTML, CSS e JS puro.</h3>
 <h3>Esse projeto consulta a api do https://viacep.com.br/</h3>
 <br>
-link do projeto : https://landing-page-pedrovincius.netlify.app/
-<h3>O projeto ainda não está finalizado, faltando validar os inputs.</h3>
+link do projeto : https://consultodecepjs.netlify.app/
 <br>
 <h1>Capturas de tela:</h1>
 
