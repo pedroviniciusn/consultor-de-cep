@@ -14,9 +14,10 @@ formulario.onsubmit = event => {
     } else {
         inputCep.classList.add('input')
         inputCep.classList.remove('hidden')
-        const url = `http://viacep.com.br/ws/${inputCep.value}/json/`
-    
-            fetch(url)
+        
+        async function preencherDados () {
+            const url = `http://viacep.com.br/ws/${inputCep.value}/json/`
+            await fetch(url)
             .then(response => response.json())
             .then(data => {
                 
@@ -28,4 +29,5 @@ formulario.onsubmit = event => {
                 
             })
         }
-}
+        preencherDados()
+}}
